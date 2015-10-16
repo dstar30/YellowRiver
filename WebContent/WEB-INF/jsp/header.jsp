@@ -15,12 +15,12 @@ function hide(){
 <body>
 <center>
 <h1 style="font-family:Connie;">Yellow River</h1>
-<table>
-<th><a href="/YellowRiver">Home</a></th>
-<th><a href="/YellowRiver/purchase"  target="body" onclick="hide()">Purchase</a></th>
-<th><a href="/YellowRiver/about"  target="body" onclick="hide()">About</a></th>
-<th><a href="/YellowRiver/contact"  target="body" onclick="hide()">Contact</a></th>
-</table>
+<ul>
+	<li><a href="/YellowRiver">Home</a></li>
+	<li><a href="/YellowRiver/purchase"  target="body" onclick="hide()">Purchase</a></li>
+	<li><a href="/YellowRiver/about"  target="body" onclick="hide()">About</a></li>
+	<li><a href="/YellowRiver/contact"  target="body" onclick="hide()">Contact</a></li>
+</ul>
 </center>
 </body>
 </html>
