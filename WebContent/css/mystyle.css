@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+html {
+	color: #2E2E2E;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F2F2F2;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+.header {
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+	background-color: #ffcc66;
+	color: #7f007f;
+}
+
+.body {
+	margin: 10px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.footer {
+	clear: both;
+	position: absolute;
+	padding: 10px;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	height: 20px;
+	background-color: #808080;
+	color:#fff;
+}
+
+
+.prodheading {
+	width: 100%;
+	height: 20px;
+	background-color: #808080;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.prodContainer {
+	position: inherit;
+	height: auto;
+	float: left;
+}
+
+table {
+	width: 80%;
+	margin-top: 20px;
+}
+
+td, td.center-col {
+	height: 40px;
+}
+
+td.center-col {
+	text-align: center;
+}
+
+td.right-col {
+	text-align: right;
+	padding-right: 15px;
+}
+
+th {
+	color: #424242;
+	border:1pt solid #808080;
+}
+
+td.tot {
+	color: #424242;
+	border:1pt solid #808080;
+}
+.tableContainer {
+	padding-left: 20px;
+}
+
+#wrapper {
+	margin-left:auto;
+    margin-right:auto;
+    height:auto; 
+    width:auto;
+}
+
+.button-bar {
+	float:left;
+	clear: both;
+}
+
+.explanation {
+	padding-left: 10px;
+	font-size: x-small;
+}
+
+.confirmation {
+	text-align: center;
+}
+
+@font-face {
+  font-family: "Connie";
+  src: url("/YellowRiver/fonts/IndieFlower.ttf");
+}
