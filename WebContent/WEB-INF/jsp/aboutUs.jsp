@@ -22,15 +22,16 @@
 				University in 2015.
 			</div>
 		<div class="col-md-4">
-		<img src="/YellowRiver/img/Jian.png" height=350 alt="Fang Zhou"/>
+		<img src="/YellowRiver/img/Jian.png" height=350 alt="Jin Jian"/>
 		<br>Jian Jin<br> Co-founder and CFO of YellowRiver<br>
 			Jian previously worked as a software engineer in Nomura
 			Securities, a global investment bank which purchased Lehman Brothers
 			in 2008.
 		</div>
 		<div class="col-md-4">
-		<img src="/YellowRiver/img/Fang.jpg" height=350 alt="Fang Zhou"/>
+		<img src="/YellowRiver/img/dj.jpg" height=350 alt="Daniel Jiang"/>
         <br>Denial Jiang<br> Co-founder and CTO of YellowRiver<br>
+        Daniel is currently a fourth year undergraduate student at the Ohio State University.
         </div>
       </div>
 </center>
