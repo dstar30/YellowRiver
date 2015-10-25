@@ -3,6 +3,7 @@
 	<name>YellowRiver</name>
 	<comment></comment>
 	<projects>
+		<project>YellowRiver-EJBClient</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
