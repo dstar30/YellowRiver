@@ -21,5 +21,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/workspace/devtools/wlp/dev/api/spec/com.ibm.ws.javaee.ejb.3.2_1.0.10.jar"/>
 	<classpathentry kind="src" path="/YellowRiver-EJB"/>
+	<classpathentry kind="lib" path="C:/workspace/devtools/wlp-javaee7-8.5.5.7/wlp/dev/api/spec/com.ibm.ws.javaee.ejb.3.2_1.0.10.jar"/>
 	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
 </classpath>

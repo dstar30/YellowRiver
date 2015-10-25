@@ -20,7 +20,7 @@ public class ServiceLocator {
 	public static InventoryService getInventoryService(){
 		try {
 	         return (InventoryServiceBean) InitialContext.doLookup(
-					"java:global/YellowRiver-EJBEAR/YellowRiver-EJB/InventoryServiceBean!edu.osu.cse5234.business..view.InventoryService");
+					"java:global/YellowRiver-EJBEAR/YellowRiver-EJB/InventoryServiceBean!edu.osu.cse5234.business..view.InventoryServiceBeanRemote");
 		} catch (NamingException ne) {
 				throw new RuntimeException(ne);		
 		}
