@@ -1,6 +1,6 @@
 package edu.osu.cse5234.model;
 
-public class Item {
+public class Item_OLD {
 	private String name;
 	private String quantity;
 	

@@ -21,15 +21,15 @@
 </tr>
 <tr>
  <td>Windows</td>
- <td>${order.list[0].quantity}</td>
+ <td>${order.items[0].quantity}</td>
 </tr>
 <tr>
 <td>Linux</td>
-<td>${order.list[1].quantity}</td>
+<td>${order.items[1].quantity}</td>
 </tr>
 <tr>
 <td>Unix</td>
-<td>${order.list[2].quantity}</td>
+<td>${order.items[2].quantity}</td>
 </tr>
 </table>
 <h2>Payment Information</h2>

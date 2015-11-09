@@ -3,8 +3,8 @@ package edu.osu.cse5234.util;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
-import edu.osu.cse5234.business.InventoryServiceBean;
 import edu.osu.cse5234.business.OrderProcessingServiceBean;
+import edu.osu.cse5234.business.view.InventoryService;
 
 public class ServiceLocator {
 	
@@ -19,8 +19,8 @@ public class ServiceLocator {
 	
 	public static InventoryService getInventoryService(){
 		try {
-	         return (InventoryServiceBean) InitialContext.doLookup(
-					"java:global/YellowRiver-EJBEAR/YellowRiver-EJB/InventoryServiceBean!edu.osu.cse5234.business..view.InventoryServiceBeanRemote");
+	         return (InventoryService) InitialContext.doLookup(
+					"java:global/YellowRiver-EJBEAR/YellowRiver-EJB/InventoryServiceBean!edu.osu.cse5234.business.view.InventoryService");
 		} catch (NamingException ne) {
 				throw new RuntimeException(ne);		
 		}

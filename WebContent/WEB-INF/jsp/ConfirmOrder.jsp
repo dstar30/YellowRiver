@@ -12,7 +12,12 @@
 <center>
 <br>
 <br>
-<h2>Thank you for your purchase. We will mail your order as soon as possible</h2>
+<h2>Thank you for your purchase. We will mail your order as soon as possible
+<br>
+Please note your confirm code:
+<c:out value="${sessionScope.confirmCode}"/>
+
+</h2>
 </center>
 </div>
 </body>
